@@ -1,0 +1,122 @@
+here/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f6ff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #1d4ed8;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 15px;
+  border: 1px solid #c7d2fe;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu a, .menu button {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1e3a8a;
+  font-weight: 500;
+  padding: 12px;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.menu a:hover, .menu button:hover {
+  background: #dbeafe;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #e0e7ff;
+  color: #1e3a8a;
+}
+
+td button {
+  padding: 5px 10px;
+  margin: 0 3px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.edit-btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+}
+
+.toggle {
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.present {
+  background: #22c55e;
+}
+
+.absent {
+  background: #ef4444;
+  }
